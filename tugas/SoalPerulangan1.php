@@ -3,7 +3,7 @@ $baju = 80000;
 $celana = 100000;
 $diskon = [3, 6, 9, 12];
 
-for ($i = 1; $i <= 4; $i+) {
+for ($i = 1; $i <= 4; $i++) {
   $BajuDiskon = $baju - ($baju * $diskon[$i - 1]) / 100;
   $celanaDiskon = $celana - ($celana * $diskon[$i - 1]) / 100;
   $totalDiskon = $BajuDiskon + $celanaDiskon;
